@@ -1,0 +1,38 @@
+body {
+    overflow-x: hidden;
+    font-family: cursive;
+    font-size: 80%;
+    letter-spacing: 0.15em;
+}
+
+.navbar {
+    border-bottom: #ffc107 3px solid;
+    opacity: 0.8;
+    color: #070500;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 193, 7, 0);
+}
+
+.navbar,
+#subscribeForm {
+    background-image: linear-gradient(to right,
+        #070500,
+        #2e2300,
+        #070500) !important;
+    color: #fff2cb !important;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+a:hover,
+.navbar {
+    color: #ffc107 !important;
+}
+
+a {
+    color: #fff2cb !important;
+}
