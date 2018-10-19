@@ -5,7 +5,7 @@ body {
     letter-spacing: 0.15em;
 }
 
-/*NAVIGATION*/
+/*NAVIGATION & SUBMISSION FORM*/
 .navbar {
     border-bottom: #ffc107 3px solid;
     opacity: 0.8;
@@ -31,7 +31,8 @@ body {
 
 /*HOVER EFFECT*/
 a:hover,
-.navbar {
+.navbar,
+.active {
     color: #ffc107 !important;
 }
 
@@ -141,18 +142,6 @@ a {
     color: #070500;
 }
 
-/*FOOTER*/
-#main-footer {
-    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
-    color: #fff2cb;
-    border-top: #ffc107 3px solid;
-}
-
-/*MILESTONE PROJECT INDICATION*/
-.which-project {
-    /*padding-top: 45px;*/
-}
-
 /*CONTACT FORM*/
 .card-body {
     background-color: #2e2300;
@@ -161,4 +150,15 @@ a {
 
 .p-1 {
     background-color: #fff2cb;
+}
+
+.form-control {
+    background-color: #fff2cb;
+}
+
+/*FOOTER*/
+#main-footer {
+    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
+    color: #fff2cb;
+    border-top: #ffc107 3px solid;
 }

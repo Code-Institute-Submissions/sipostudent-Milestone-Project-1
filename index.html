@@ -13,10 +13,10 @@
   <title>Milestone-Project-1-Code-Institute | Long-Scrolling-One-Page-Website</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
 
   <!-- NAVIGATION -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a href="#home-section" class="navbar-brand"><i class="fas fa-utensils"></i> HoneyGRUB</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -128,7 +128,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 align-self-center">
-          <h3>How We Work?</h3>
+          <h3>How we work?</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto
             corrupti illum
             cum laudantium ex sequi amet.
@@ -137,7 +137,7 @@
           <div>
             <button type="button" class="btn btn-dark btn-md" onclick="document.getElementById('demo1').play()"><i
                 class="fas fa-play"></i>
-              Play To Learn More</button>
+              Play to learn more</button>
           </div>
         </div>
         <div class="col-md-4">
@@ -160,7 +160,7 @@
               <img src="img/honeybread.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail">
             </div>
             <div class="media-body">
-              <h5>HoneyGRUB Info</h5>
+              <h5>More info</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
               odio, vestibulum in
               vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
@@ -174,7 +174,7 @@
               <img src="img/honeybananabread.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail">
             </div>
             <div class="media-body">
-              <h5>HoneyGRUB Info</h5>
+              <h5>More info</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
               odio, vestibulum in
               vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
@@ -192,7 +192,7 @@
       <div class="row">
         <div class="col">
           <div class="container pt-5">
-            <h2>Recipe of the Week</h2>
+            <h2>Recipe of the week</h2>
             <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit
               dolores. Nisi, dolor nam modi perspiciatis
               consequatur soluta.
@@ -209,7 +209,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-lg-block order-2">
-          <h3>Ingredients (with Cookalong Video)
+          <h3>Ingredients (with cookalong video)
           </h3>
           <div class="d-flex">
             <div class="p-3 align-self-start">
@@ -250,7 +250,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-lg-block order-1">
-          <h3>Method (with Cookalong Video)
+          <h3>Method (with cookalong video)
           </h3>
           <div class="d-flex">
             <div class="p-3 align-self-start">
@@ -292,7 +292,7 @@
       <div class="row">
         <div class="col">
           <div class="container pt-5">
-            <h2>Attend our Meet Ups</h2>
+            <h2>Attend our events</h2>
             <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit
               dolores. Nisi, dolor nam modi perspiciatis
               consequatur soluta.
@@ -309,7 +309,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 align-self-center text-right order-2">
-          <h3>Meet Honey Lovers</h3>
+          <h3>Meet honey lovers</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto
             corrupti illum
             cum laudantium ex sequi amet.
@@ -318,7 +318,7 @@
           <div>
             <button type="button" class="btn btn-dark btn-md" onclick="document.getElementById('demo2').play()"><i
                 class="fas fa-play"></i>
-              Play To Learn More</button>
+              Play to learn more</button>
           </div>
         </div>
         <div class="col-md-4 order-1">
@@ -483,7 +483,8 @@
         <div class="col">
           <a href="" class="navbar-brand"><i class="fas fa-utensils"></i> HoneyGRUB</a>
           <p>&copy;
-            2018 Sipo Charles - All Rights Reserved.
+            2018 Sipo Charles - <a href="https://github.com/sipostudent" target="_blank"><i class="fab fa-github fa-3x mb-2"></i></a>
+            - All Rights Reserved.
           </p>
           <p>
             <a class="footer-link footer-social-link fa-3x mb-2" href="https://facebook.com" target="_blank">
@@ -502,7 +503,7 @@
               <i class="fab fa-instagram"></i>
             </a>
           </p>
-          <p class="which-project text-muted">Code Institute | User Centric Frontend Development | Milestone Project</p>
+          <p class="text-muted">Code Institute | User Centric Frontend Development | Milestone Project</p>
         </div>
       </div>
     </div>
@@ -514,6 +515,29 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+
+  <script>
+    // Init Scrollspy
+    $('body').scrollspy({
+      target: '#main-nav'
+    });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
