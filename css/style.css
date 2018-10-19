@@ -72,3 +72,53 @@ a {
     background: #ffc107;
     width: 270px;
 }
+
+.block-divider2 {
+    height: 3px;
+    background: #ffc107;
+    width: 135px;
+}
+
+#about-section,
+#kitchen-section,
+#schedule-section {
+    position: relative;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
+    color: #fff2cb;
+}
+
+#services,
+#info1,
+#info2,
+#info3,
+#kitchen1,
+#kitchen2,
+#schedule,
+#events {
+    background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
+    color: #070500;
+}
+
+.btn-dark {
+    background-image: linear-gradient(to right,
+        #070500,
+        #2e2300,
+        #070500) !important;
+    color: #fff2cb;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(7, 5, 0, 0);
+}
+
+.btn-warning {
+    background-image: linear-gradient(to right,
+        #ffc107,
+        #fff2cb,
+        #ffc107) !important;
+}
+
+.btn-dark {
+    display: inline-block;
+}
