@@ -77,7 +77,8 @@ a {
 #kitchen1,
 #kitchen2,
 #schedule,
-#events {
+#events,
+#contact {
     background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
     color: #070500;
 }
@@ -149,5 +150,15 @@ a {
 
 /*MILESTONE PROJECT INDICATION*/
 .which-project {
-    padding-top: 45px;
+    /*padding-top: 45px;*/
+}
+
+/*CONTACT FORM*/
+.card-body {
+    background-color: #2e2300;
+    color: #fff2cb;
+}
+
+.p-1 {
+    background-color: #fff2cb;
 }
