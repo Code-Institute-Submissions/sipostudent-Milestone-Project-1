@@ -79,7 +79,8 @@ a {
 #kitchen2,
 #schedule,
 #events,
-#contact {
+#contact,
+#top-of-page {
     background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
     color: #070500;
 }
@@ -132,7 +133,8 @@ a {
 .fa-play,
 .fa-utensils,
 .form-group,
-.modal-title {
+.modal-title,
+.fa-arrow-up {
     color: #ffc107;
 }
 
