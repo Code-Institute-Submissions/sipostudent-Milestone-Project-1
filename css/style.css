@@ -122,3 +122,14 @@ a {
 .btn-dark {
     display: inline-block;
 }
+
+.fa-play,
+.fa-utensils,
+.form-group,
+.modal-title {
+    color: #ffc107;
+}
+
+.img-thumbnail {
+    background-color: #fff2cb;
+}
