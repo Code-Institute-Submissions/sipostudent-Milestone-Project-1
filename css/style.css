@@ -103,6 +103,10 @@ a {
     color: #070500;
 }
 
+.img-thumbnail {
+    background-color: #fff2cb;
+}
+
 .btn-dark {
     background-image: linear-gradient(to right,
         #070500,
@@ -130,6 +134,8 @@ a {
     color: #ffc107;
 }
 
-.img-thumbnail {
-    background-color: #fff2cb;
+.fa-info-circle,
+.fa-map-marker-alt,
+.fa-table {
+    color: #070500;
 }
