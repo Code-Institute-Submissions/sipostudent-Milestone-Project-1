@@ -36,3 +36,39 @@ a:hover,
 a {
     color: #fff2cb !important;
 }
+
+#home-section {
+    background: url(../img/apis-mellifera-bee-beehive-56876.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 720px;
+    color: #fff2cb;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 720px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+#home-section .home-inner {
+    padding-top: 130px;
+}
+
+#subscribeForm {
+    background-color: #070500;
+}
+
+.block-divider1 {
+    height: 3px;
+    background: #ffc107;
+    width: 270px;
+}
