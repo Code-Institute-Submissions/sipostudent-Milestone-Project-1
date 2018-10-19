@@ -5,6 +5,7 @@ body {
     letter-spacing: 0.15em;
 }
 
+/*NAVIGATION*/
 .navbar {
     border-bottom: #ffc107 3px solid;
     opacity: 0.8;
@@ -28,6 +29,7 @@ body {
     padding-right: 1rem !important;
 }
 
+/*HOVER EFFECT*/
 a:hover,
 .navbar {
     color: #ffc107 !important;
@@ -37,6 +39,7 @@ a {
     color: #fff2cb !important;
 }
 
+/*BACKGROUND IMAGES AND DARK OVERLAY*/
 #home-section {
     background: url(../img/apis-mellifera-bee-beehive-56876.jpg);
     background-repeat: no-repeat;
@@ -53,26 +56,6 @@ a {
     width: 100%;
     min-height: 720px;
     background: rgba(0, 0, 0, 0.5);
-}
-
-.jumbotron {
-    background-color: transparent;
-}
-
-#home-section .home-inner {
-    padding-top: 130px;
-}
-
-.block-divider1 {
-    height: 3px;
-    background: #ffc107;
-    width: 270px;
-}
-
-.block-divider2 {
-    height: 3px;
-    background: #ffc107;
-    width: 135px;
 }
 
 #about-section,
@@ -99,10 +82,34 @@ a {
     color: #070500;
 }
 
+/*HOME SECTION JUMBOTRON & TEXT PADDING*/
+.jumbotron {
+    background-color: transparent;
+}
+
+#home-section .home-inner {
+    padding-top: 130px;
+}
+
+/*STYLED HR TAGS*/
+.block-divider1 {
+    height: 3px;
+    background: #ffc107;
+    width: 270px;
+}
+
+.block-divider2 {
+    height: 3px;
+    background: #ffc107;
+    width: 135px;
+}
+
+/*IMAGE SHAPE*/
 .img-thumbnail {
     background-color: #fff2cb;
 }
 
+/*BUTTONS*/
 .btn-dark {
     background-image: linear-gradient(to right,
         #070500,
@@ -119,10 +126,7 @@ a {
         #ffc107) !important;
 }
 
-.btn-dark {
-    display: inline-block;
-}
-
+/*FONTAWESOME ICONS*/
 .fa-play,
 .fa-utensils,
 .form-group,
@@ -136,12 +140,14 @@ a {
     color: #070500;
 }
 
+/*FOOTER*/
 #main-footer {
     background-image: linear-gradient(to right, #070500, #2e2300, #070500);
     color: #fff2cb;
     border-top: #ffc107 3px solid;
 }
 
+/*MILESTONE PROJECT INDICATION*/
 .which-project {
     padding-top: 45px;
 }
