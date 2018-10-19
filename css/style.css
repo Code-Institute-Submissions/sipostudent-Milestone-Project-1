@@ -63,10 +63,6 @@ a {
     padding-top: 130px;
 }
 
-#subscribeForm {
-    background-color: #070500;
-}
-
 .block-divider1 {
     height: 3px;
     background: #ffc107;
@@ -138,4 +134,14 @@ a {
 .fa-map-marker-alt,
 .fa-table {
     color: #070500;
+}
+
+#main-footer {
+    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
+    color: #fff2cb;
+    border-top: #ffc107 3px solid;
+}
+
+.which-project {
+    padding-top: 45px;
 }
