@@ -470,13 +470,13 @@
     </div>
   </section>
 
-  <!-- TOP OF PAGE SECTION -->
-  <section id="top-of-page" class="py-3">
+  <!-- FLOAT BACK TO TOP ICON SECTION -->
+  <section id="float-back-to-top" class="py-3">
     <div class="container">
       <div class="row">
-        <div class="col-md-11 text-right">
-          <h5>...</h5>
-          <a href="#home-section"><i class="fas fa-arrow-alt-circle-up fa-3x mb-2"></i></a>
+        <div class="col-md-12 text-right">
+          <h3>...</h3>
+          <a href="#" id="scroll" style="display: none;"><span><i class="fas fa-arrow-alt-circle-up fa-3x mb-2"></i></span></a>
         </div>
       </div>
     </div>
@@ -523,12 +523,12 @@
     crossorigin="anonymous"></script>
 
   <script>
-    // Init Scrollspy
+    // Navigation Init Scrollspy
     $('body').scrollspy({
       target: '#main-nav'
     });
 
-    // Smooth Scrolling
+    // Navigation Smooth Scrolling
     $("#main-nav a").on('click', function (event) {
       if (this.hash !== "") {
         event.preventDefault();
@@ -542,6 +542,21 @@
           window.location.hash = hash;
         });
       }
+    });
+
+    // Float Back To Top Smooth Scrolling
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#scroll').fadeIn();
+      } else {
+        $('#scroll').fadeOut();
+      }
+    });
+    $('#scroll').click(function () {
+      $("html, body").animate({
+        scrollTop: 0
+      }, 600);
+      return false;
     });
   </script>
 </body>
