@@ -11,6 +11,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Milestone-Project-1-Code-Institute | Long-Scrolling-One-Page-Website</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon-min.png">
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
@@ -18,23 +19,24 @@
   <!-- NAVIGATION -->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <div class="container">
-      <a href="#home-section" class="navbar-brand"><i class="fas fa-utensils"></i> HoneyGRUB</a>
+      <a href="#home-section" class="navbar-brand" data-toggle="tooltip" title="logo/float to top"><i class="fas fa-utensils"></i>
+        HoneyGRUB</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a href="#home-section" class="nav-link">Home</a>
+            <a href="#home-section" class="nav-link" data-toggle="tooltip" title="nav section (a)">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about-section" class="nav-link">About</a>
+            <a href="#about-section" class="nav-link" data-toggle="tooltip" title="nav section (b)">About</a>
           </li>
           <li class="nav-item">
-            <a href="#kitchen-section" class="nav-link">Kitchen</a>
+            <a href="#kitchen-section" class="nav-link" data-toggle="tooltip" title="nav section (c)">Kitchen</a>
           </li>
           <li class="nav-item">
-            <a href="#schedule-section" class="nav-link">Schedule</a>
+            <a href="#schedule-section" class="nav-link" data-toggle="tooltip" title="nav section (d)">Schedule</a>
           </li>
         </ul>
       </div>
@@ -66,7 +68,7 @@
             voluptates
             vero repellendus architecto maiores recusandae mollitia?
           </p>
-          <form class="form-inline justify-content-center">
+          <form class="form-inline justify-content-center" data-toggle="tooltip" title="contact form (a)">
             <input type="text" class="form-control mb-2 mr-2" placeholder="First Name">
             <input type="text" class="form-control mb-2 mr-2" placeholder="Last Name">
             <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
@@ -133,16 +135,17 @@
           </p>
           <audio id="demo1" src="http://www-personal.umich.edu/~sarhaus/larimore02/Shell/SoundCatalogue/bee.wav"></audio>
           <div>
-            <button type="button" class="btn btn-dark btn-md" onclick="document.getElementById('demo1').play()"><i
+            <button type="button" class="btn btn-dark btn-md" data-toggle="tooltip" title="audio content" onclick="document.getElementById('demo1').play()"><i
                 class="fas fa-play"></i>
               Play to learn more</button>
           </div>
         </div>
         <div class="col-md-4">
-          <img src="img/honeybomb.jpg" alt="honey bomb" class="img-fluid img-thumbnail">
+          <img src="img/honeybomb-min.jpg" alt="honey bomb" class="img-fluid img-thumbnail" data-toggle="tooltip" title="picture content">
         </div>
         <div class="col-md-4">
-          <img src="img/honeycontainer.jpg" alt="honey bee" class="img-fluid img-thumbnail">
+          <img src="img/honeycontainer-min.jpg" alt="honey bee" class="img-fluid img-thumbnail" data-toggle="tooltip"
+            title="picture content">
         </div>
       </div>
     </div>
@@ -155,7 +158,8 @@
         <div class="col-md-6">
           <div class="media mt-4">
             <div class="pr-3">
-              <img src="img/honeybread.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail">
+              <img src="img/honeybread-min.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail"
+                data-toggle="tooltip" title="picture content">
             </div>
             <div class="media-body">
               <h5>More info</h5>
@@ -169,7 +173,8 @@
         <div class="col-md-6">
           <div class="media mt-4">
             <div class="pr-3">
-              <img src="img/honeybananabread.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail">
+              <img src="img/honeybananabread-min.jpg" width="140" height="140" alt="honey bee" class="img-fluid img-thumbnail"
+                data-toggle="tooltip" title="picture content">
             </div>
             <div class="media-body">
               <h5>More info</h5>
@@ -234,7 +239,8 @@
         </div>
         <div class="col-lg-6 order-1">
           <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/of_W-2Nan7U" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/of_W-2Nan7U" data-toggle="tooltip"
+              title="video content" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -275,7 +281,8 @@
         </div>
         <div class="col-lg-6 order-2">
           <div class="embed-responsive embed-responsive-16by9 img-thumbnail">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jl7u8l2qalM" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jl7u8l2qalM" data-toggle="tooltip"
+              title="video content" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -310,16 +317,16 @@
           </p>
           <audio id="demo2" src="http://www.sounds.beachware.com/2illionzayp3may/puzljaz/BEESWARM.mp3"></audio>
           <div>
-            <button type="button" class="btn btn-dark btn-md" onclick="document.getElementById('demo2').play()"><i
+            <button type="button" class="btn btn-dark btn-md" data-toggle="tooltip" title="audio content" onclick="document.getElementById('demo2').play()"><i
                 class="fas fa-play"></i>
               Play to learn more</button>
           </div>
         </div>
         <div class="col-md-4 order-1">
-          <img src="img/honeypancakes.jpg" alt="" class="img-fluid img-thumbnail">
+          <img src="img/honeypancakes-min.jpg" alt="" class="img-fluid img-thumbnail" data-toggle="tooltip" title="picture content">
         </div>
         <div class="col-md-4 order-1">
-          <img src="img/peopleongrass.jpg" alt="" class="img-fluid img-thumbnail">
+          <img src="img/peopleongrass-min.jpg" alt="" class="img-fluid img-thumbnail" data-toggle="tooltip" title="picture content">
         </div>
       </div>
     </div>
@@ -335,20 +342,23 @@
             <tbody>
               <tr class="">
                 <th scope="row">1</th>
-                <td><a href="https://www.thsh.co.uk/" target="_blank"><i class="fas fa-info-circle fa-3x"></i></a> Town
+                <td><a href="https://www.thsh.co.uk/" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-info-circle fa-3x"></i></a> Town
                   Hall Symphony
                   Hall (THSH)
                 </td>
               </tr>
               <tr class="">
                 <th scope="row">2</th>
-                <td><a href="http://www.belgrade.co.uk/" target="_blank"><i class="fas fa-info-circle fa-3x"></i></a>Belgrade
+                <td><a href="http://www.belgrade.co.uk/" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-info-circle fa-3x"></i></a>Belgrade
                   Thearte
                 </td>
               </tr>
               <tr class="">
                 <th scope="row">3</th>
-                <td><a href="https://www.grandtheatre.co.uk/" target="_blank"><i class="fas fa-info-circle fa-3x"></i></a>Grand
+                <td><a href="https://www.grandtheatre.co.uk/" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-info-circle fa-3x"></i></a>Grand
                   Thearte
                 </td>
               </tr>
@@ -361,19 +371,22 @@
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td><a href="https://en.wikipedia.org/wiki/Birmingham" target="_blank"><i class="fas fa-map-marker-alt fa-3x"></i></a>
+                <td><a href="https://en.wikipedia.org/wiki/Birmingham" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-map-marker-alt fa-3x"></i></a>
                   Birmingham, UK
                 </td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td><a href="https://en.wikipedia.org/wiki/Coventry" target="_blank"><i class="fas fa-map-marker-alt fa-3x"></i></a>
+                <td><a href="https://en.wikipedia.org/wiki/Coventry" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-map-marker-alt fa-3x"></i></a>
                   Coventry, UK
                 </td>
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td><a href="https://en.wikipedia.org/wiki/Wolverhampton" target="_blank"><i class="fas fa-map-marker-alt fa-3x"></i></a>
+                <td><a href="https://en.wikipedia.org/wiki/Wolverhampton" target="_blank" data-toggle="tooltip" title="hyperlink text"><i
+                      class="fas fa-map-marker-alt fa-3x"></i></a>
                   Wolverhampton, UK
                 </td>
               </tr>
@@ -404,7 +417,7 @@
   </section>
 
   <!-- CONTACT SECTION -->
-  <section id="contact" class="py-3">
+  <section id="contact" class="py-3" data-toggle="tooltip" title="contact form (b)">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -476,7 +489,7 @@
       <div class="row">
         <div class="col-md-12 text-right">
           <h3>...</h3>
-          <a href="#" id="scroll" style="display: none;"><span><i class="fas fa-arrow-alt-circle-up fa-3x mb-2"></i></span></a>
+          <a href="#" id="scroll" data-toggle="tooltip" title="float to top" style="display: none;"><span><i class="fas fa-arrow-alt-circle-up fa-3x mb-2"></i></span></a>
         </div>
       </div>
     </div>
@@ -489,23 +502,29 @@
         <div class="col">
           <a href="" class="navbar-brand"><i class="fas fa-utensils"></i> HoneyGRUB</a>
           <p>&copy;
-            2018 Sipo Charles - <a href="https://github.com/sipostudent" target="_blank"><i class="fab fa-github fa-3x mb-2"></i></a>
+            2018 Sipo Charles - <a href="https://github.com/sipostudent" target="_blank" data-toggle="tooltip" title="This is GitHub"><i
+                class="fab fa-github fa-3x mb-2"></i></a>
             - All Rights Reserved.
           </p>
           <p>
-            <a class="footer-link footer-social-link fa-3x mb-2" href="https://facebook.com" target="_blank">
+            <a class="footer-link footer-social-link fa-3x mb-2" href="https://facebook.com" target="_blank"
+              data-toggle="tooltip" title="This is Facebook">
               <i class="fab fa-facebook"></i>
             </a>
-            <a class="footer-link footer-social-link fa-3x mb-2" href="https://twitter.com" target="_blank">
+            <a class="footer-link footer-social-link fa-3x mb-2" href="https://twitter.com" target="_blank" data-toggle="tooltip"
+              title="This is Twitter">
               <i class="fab fa-twitter"></i>
             </a>
-            <a class="footer-link footer-social-link fa-3x mb-2" href="https://youtube.com" target="_blank">
+            <a class="footer-link footer-social-link fa-3x mb-2" href="https://youtube.com" target="_blank" data-toggle="tooltip"
+              title="This is Youtube">
               <i class="fab fa-youtube"></i>
             </a>
-            <a class="footer-link footer-social-link fa-3x mb-2" href="https://pinterest.com" target="_blank">
+            <a class="footer-link footer-social-link fa-3x mb-2" href="https://pinterest.com" target="_blank"
+              data-toggle="tooltip" title="This is Pinterest">
               <i class="fab fa-pinterest"></i>
             </a>
-            <a class="footer-link footer-social-link fa-3x mb-2" href="https://instagram.com" target="_blank">
+            <a class="footer-link footer-social-link fa-3x mb-2" href="https://instagram.com" target="_blank"
+              data-toggle="tooltip" title="This is Instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </p>
@@ -557,6 +576,11 @@
         scrollTop: 0
       }, 600);
       return false;
+    });
+
+    //Tool Tip
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
 </body>

@@ -1,79 +1,73 @@
 body {
-    overflow-x: hidden;
-    font-family: cursive;
-    font-size: 80%;
-    letter-spacing: 0.15em;
+  overflow-x: hidden;
+  font-family: cursive;
+  font-size: 80%;
+  letter-spacing: 0.15em;
 }
-
 
 /*NAVIGATION & SUBMISSION FORM*/
 
 .navbar {
-    border-bottom: #ffc107 3px solid;
-    opacity: 0.8;
-    color: #070500;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 193, 7, 0);
+  border-bottom: #ffc107 3px solid;
+  opacity: 0.8;
+  color: #070500;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 193, 7, 0);
 }
 
 .navbar,
 #subscribeForm {
-    background-image: linear-gradient(to right, #070500, #2e2300, #070500) !important;
-    color: #fff2cb !important;
+  background-image: linear-gradient(
+    to right,
+    #070500,
+    #2e2300,
+    #070500
+  ) !important;
+  color: #fff2cb !important;
 }
-
 .navbar .nav-link {
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
-
-
 /*HOVER EFFECT*/
-
 a:hover,
 .navbar,
 .active {
-    color: #ffc107 !important;
+  color: #ffc107 !important;
 }
-
 a {
-    color: #fff2cb !important;
+  color: #fff2cb !important;
 }
-
-
 /*BACKGROUND IMAGES AND DARK OVERLAY*/
 
 #home-section {
-    background: url(../img/apis-mellifera-bee-beehive-56876.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 720px;
-    color: #fff2cb;
+  background: url(../img/apis-mellifera-bee-beehive-56876-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 720px;
+  color: #fff2cb;
 }
-
 #home-section .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 720px;
-    background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 720px;
+  background: rgba(0, 0, 0, 0.5);
 }
-
 #about-section,
 #kitchen-section,
 #schedule-section {
-    position: relative;
-    min-height: 200px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
-    color: #fff2cb;
+  position: relative;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: linear-gradient(to right, #070500, #2e2300, #070500);
+  color: #fff2cb;
 }
-
 #services,
 #info1,
 #info2,
@@ -84,109 +78,90 @@ a {
 #events,
 #contact,
 #float-back-to-top {
-    background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
-    color: #070500;
+  background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
+  color: #070500;
 }
-
-
 /*HOME SECTION JUMBOTRON & TEXT PADDING*/
-
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
-
 #home-section .home-inner {
-    padding-top: 130px;
+  padding-top: 130px;
 }
-
-
 /*STYLED HR TAGS*/
-
 .block-divider1 {
-    height: 3px;
-    background: #ffc107;
-    width: 270px;
+  height: 3px;
+  background: #ffc107;
+  width: 270px;
 }
-
 .block-divider2 {
-    height: 3px;
-    background: #ffc107;
-    width: 135px;
+  height: 3px;
+  background: #ffc107;
+  width: 135px;
 }
-
-
 /*IMAGE SHAPE*/
-
 .img-thumbnail {
-    background-color: #fff2cb;
+  background-color: #fff2cb;
 }
-
-
 /*BUTTONS*/
-
 .btn-dark {
-    background-image: linear-gradient(to right, #070500, #2e2300, #070500) !important;
-    color: #fff2cb;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(7, 5, 0, 0);
+  background-image: linear-gradient(
+    to right,
+    #070500,
+    #2e2300,
+    #070500
+  ) !important;
+  color: #fff2cb;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(7, 5, 0, 0);
 }
-
 .btn-warning {
-    background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107) !important;
+  background-image: linear-gradient(
+    to right,
+    #ffc107,
+    #fff2cb,
+    #ffc107
+  ) !important;
 }
-
-
 /*FONTAWESOME ICONS*/
-
 .fa-play,
 .fa-utensils,
 .form-group,
 .modal-title {
-    color: #ffc107;
+  color: #ffc107;
 }
-
 .fa-info-circle,
 .fa-map-marker-alt,
 .fa-table {
-    color: #070500;
+  color: #070500;
 }
 
 .fa-arrow-alt-circle-up {
-    opacity: 0.8;
-    color: #fff2cb;
+  opacity: 0.8;
+  color: #fff2cb;
 }
-
 /*CONTACT FORM*/
-
 .card-body {
-    background-color: #2e2300;
-    color: #fff2cb;
+  background-color: #2e2300;
+  color: #fff2cb;
 }
-
 .p-1 {
-    background-color: #fff2cb;
+  background-color: #fff2cb;
 }
-
 .form-control {
-    background-color: #fff2cb;
+  background-color: #fff2cb;
 }
-
-
 
 /*FLOAT BACK TO TOP ICON POSITIONING*/
-
 #scroll {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
 }
-
-
 /*FOOTER*/
-
 #main-footer {
-    background-image: linear-gradient(to right, #070500, #2e2300, #070500);
-    color: #fff2cb;
-    border-top: #ffc107 3px solid;
+  background-image: linear-gradient(to right, #070500, #2e2300, #070500);
+  color: #fff2cb;
+  border-top: #ffc107 3px solid;
 }
