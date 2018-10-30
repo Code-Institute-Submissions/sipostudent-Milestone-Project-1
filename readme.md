@@ -1,4 +1,4 @@
-<h1>MILESTONE PROJECT 1 <br>USER CENTRIC FRONTEND DEVELOPMENT: HoneyGRUB</h1>
+<h1>MILESTONE PROJECT ONE: HoneyGRUB</h1>
 
 <h2>REQUIREMENT</h2>
 
@@ -33,6 +33,8 @@ The goal of this website was to provide a medium for users to navigate with ease
 - By opting for an SPA, I am able to provide better user friendliness via a simple linear experience, with a clear beginning, middle, and end.
 
 - The amount of content I have presented is not vast; thus, in order to maintain user attention, I opted to keep things dense as opposed to thinly dispersed or scattered across multiple separate pages.
+
+<h2>DESIGN</h2>
 
 <h4>Colour Scheme</h4>
 
