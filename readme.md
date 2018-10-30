@@ -192,7 +192,7 @@ All pictures within the website are sourced from Pexels.com, free for personal a
   - Asus UX 305 (simulated and real device)
 
 * Televisions
-  - 1080p Full HD Television (simulated and real device)
+  - 1080p Full HD Television (simulated and real device).
 
 - Website responsiveness was also tested by resizing the window with every addition of new code.
 
