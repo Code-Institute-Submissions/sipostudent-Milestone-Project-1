@@ -16,29 +16,31 @@ body {
 
 .navbar,
 #subscribeForm {
-  background-image: linear-gradient(
-    to right,
+  background-image: linear-gradient(to right,
     #070500,
     #2e2300,
-    #070500
-  ) !important;
+    #070500) !important;
   color: #fff2cb !important;
 }
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
+
 /*HOVER EFFECT*/
 a:hover,
 .navbar,
 .active {
   color: #ffc107 !important;
 }
+
 a {
   color: #fff2cb !important;
 }
+
 /*BACKGROUND IMAGES AND DARK OVERLAY*/
 
 #home-section {
@@ -49,6 +51,7 @@ a {
   min-height: 720px;
   color: #fff2cb;
 }
+
 #home-section .dark-overlay {
   position: absolute;
   top: 0;
@@ -57,6 +60,7 @@ a {
   min-height: 720px;
   background: rgba(0, 0, 0, 0.5);
 }
+
 #about-section,
 #kitchen-section,
 #schedule-section {
@@ -68,6 +72,7 @@ a {
   background-image: linear-gradient(to right, #070500, #2e2300, #070500);
   color: #fff2cb;
 }
+
 #services,
 #info1,
 #info2,
@@ -81,47 +86,51 @@ a {
   background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107);
   color: #070500;
 }
+
 /*HOME SECTION JUMBOTRON & TEXT PADDING*/
 .jumbotron {
   background-color: transparent;
 }
+
 #home-section .home-inner {
   padding-top: 130px;
 }
+
 /*STYLED HR TAGS*/
 .block-divider1 {
   height: 3px;
   background: #ffc107;
   width: 270px;
 }
+
 .block-divider2 {
   height: 3px;
   background: #ffc107;
   width: 135px;
 }
+
 /*IMAGE SHAPE*/
 .img-thumbnail {
   background-color: #fff2cb;
 }
+
 /*BUTTONS*/
 .btn-dark {
-  background-image: linear-gradient(
-    to right,
+  background-image: linear-gradient(to right,
     #070500,
     #2e2300,
-    #070500
-  ) !important;
+    #070500) !important;
   color: #fff2cb;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(7, 5, 0, 0);
 }
+
 .btn-warning {
-  background-image: linear-gradient(
-    to right,
+  background-image: linear-gradient(to right,
     #ffc107,
     #fff2cb,
-    #ffc107
-  ) !important;
+    #ffc107) !important;
 }
+
 /*FONTAWESOME ICONS*/
 .fa-play,
 .fa-utensils,
@@ -129,24 +138,28 @@ a {
 .modal-title {
   color: #ffc107;
 }
+
 .fa-info-circle,
 .fa-map-marker-alt,
 .fa-table {
   color: #070500;
 }
 
-.fa-arrow-alt-circle-up {
+.fa-chevron-circle-up {
   opacity: 0.8;
   color: #fff2cb;
 }
+
 /*CONTACT FORM*/
 .card-body {
   background-color: #2e2300;
   color: #fff2cb;
 }
+
 .p-1 {
   background-color: #fff2cb;
 }
+
 .form-control {
   background-color: #fff2cb;
 }
@@ -159,6 +172,7 @@ a {
   width: 50px;
   height: 50px;
 }
+
 /*FOOTER*/
 #main-footer {
   background-image: linear-gradient(to right, #070500, #2e2300, #070500);
