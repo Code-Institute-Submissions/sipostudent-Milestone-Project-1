@@ -1,4 +1,5 @@
-<h1>MILESTONE PROJECT 1 <br>USER CENTRIC FRONTEND DEVELOPMENT: HoneyGRUB</h1>
+<h1>MILESTONE PROJECT ONE: Front-End Only Website</h1>
+<p>Code Institute / User-Centric Front-End Development</p>
 
 <h2>REQUIREMENT</h2>
 
@@ -79,11 +80,11 @@ HOVER-CSS – to display pseudo-class matches when the user interacts with an el
 
 <h4>Audio & Video Content</h4>
 
-Being as this is a fictional company/group website, for the purpose of meeting academic requirements, I chose to include free for personal and commercial use media from findsounds.com which did not necessarily have an informative purpose to users, but would show the project accessor that I both understood and was capable of adding and utilising the correct code sequence/s in order to produce functional audio/video features on a website. Since controls on media players are an optional function, I chose not to add them; however, sound can be initiated by pressing an included CSS styled button; thus, meeting the project requirement.
+Being as this is a fictional company/group website, for the purpose of meeting academic requirements, I chose to include free for personal and commercial use media from [findsounds.com](http://findsounds.com/ "FindSounds Official Site") which did not necessarily have an informative purpose to users, but would show the project accessor that I both understood and was capable of adding and utilising the correct code sequence/s in order to produce functional audio/video features on a website. Since controls on media players are an optional function, I chose not to add them; however, sound can be initiated by pressing an included CSS styled button; thus, meeting the project requirement.
 
 <h4>Pictures</h4>
 
-All pictures within the website are sourced from Pexels.com, free for personal and commercial use, no attribution required, and in alignment with the chosen theme of honey, which is consistently maintained throughout the website.
+All pictures within the website are sourced from [Pexels.com](https://www.w3.org/ "Pexels Official Site"), free for personal and commercial use, no attribution required, and in alignment with the chosen theme (honey), which is consistently maintained throughout the website.
 
 <h1>DEVELOPMENT</h1>
 
@@ -196,14 +197,14 @@ All pictures within the website are sourced from Pexels.com, free for personal a
 
 <h4>Tested Sections</h4>
 
-- External links to social media websites.
+- External links to social media and venue location websites.
 - Internal links, which entailed those on the navbar to ensure anchors were referenced to the right sections.
 - Forms for signup of newsletter and contact (although, form validation was not a requirement of this project).
 - Checked button sizes so they were responsive and large enough to be clicked.
 - Checked images to ensure they were responsive and displayed appropriately on multiple screen sizes.
 - Ensuring individual section headers resized and appeared well when viewed on various screens and added opacity to the navigation bar to allow for more visibility of section header area on smaller devices.
 - Spell checked all text content.
-- HTML and CSS validation via w3.org.
+- HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
 - Checked margins and padding of the container (sections) to ensure the content within it didn't look disproportionate on various screen sizes, specifically smaller devices.
 - Ensured the iframes were being responsive and displayed properly.
 
@@ -229,8 +230,8 @@ All pictures within the website are sourced from Pexels.com, free for personal a
 
 <h4>Media</h4>
 
-- The photos used in this site were obtained from Pexels.com where all photos can be used for free for commercial and non-commercial use, attribution is not required, and photos can be modified. For further information, click here for Pexels.com license details.
+- The photos used in this website were obtained from [Pexels.com](https://www.pexels.com/ "Pexels Official Site") and the audio was sourced from [findsounds.com](http://findsounds.com/ "FindSounds Official Site"). All photos can be used for free, for commercial and non-commercial use, attribution is not required, and photos can be modified. All audio clips can be used for free, for commercial and non-commercial use, and attribution is not required. For further information, please refer to the relevant websites attached via hyperlink to the relevant media source title.
 
 <h4>Acknowledgements</h4>
 
-- I received inspiration for this project from my love of all things honey and childhood dream to be a beekeeper.
+- I received inspiration for this project from my love of all things honey and childhood dream of becoming a beekeeper.

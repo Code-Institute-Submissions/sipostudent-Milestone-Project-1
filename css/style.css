@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Schoolbell|Walter+Turncoat');
+
 body {
   overflow-x: hidden;
-  font-family: cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Schoolbell', cursive;
   font-size: 80%;
   letter-spacing: 0.15em;
 }
+
+h1,
+h2,
+h3,
+h5,
+.footerLogo {
+  font-family: 'Walter Turncoat', cursive;
+}
+
 
 /* NAVIGATION & SUBMISSION FORM **/
 
@@ -12,14 +24,12 @@ body {
   opacity: 0.8;
   color: #070500;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 193, 7, 0);
+  font-family: 'Walter Turncoat', cursive;
 }
 
 .navbar,
 #subscribeForm {
-  background-image: linear-gradient(to right,
-    #070500,
-    #2e2300,
-    #070500) !important;
+  background-image: linear-gradient(to right, #070500, #2e2300, #070500) !important;
   color: #fff2cb !important;
 }
 
@@ -30,7 +40,9 @@ body {
   padding-right: 1rem !important;
 }
 
+
 /* HOVER EFFECT **/
+
 a:hover,
 .navbar,
 .active {
@@ -40,6 +52,7 @@ a:hover,
 a {
   color: #fff2cb !important;
 }
+
 
 /* BACKGROUND IMAGES & DARK OVERLAY **/
 
@@ -63,7 +76,7 @@ a {
 
 #about-section,
 #kitchen-section,
-#schedule-section {
+#events-section {
   position: relative;
   min-height: 200px;
   background-attachment: fixed;
@@ -79,7 +92,9 @@ a {
 #info3,
 #kitchen1,
 #kitchen2,
-#schedule,
+
+/* #schedule, */
+
 #events,
 #contact,
 #float-back-to-top {
@@ -87,7 +102,9 @@ a {
   color: #070500;
 }
 
+
 /* HOME SECTION JUMBOTRON & TEXT PADDING **/
+
 .jumbotron {
   background-color: transparent;
 }
@@ -96,7 +113,9 @@ a {
   padding-top: 130px;
 }
 
+
 /* STYLED HR TAGS **/
+
 .block-divider1 {
   height: 3px;
   background: #ffc107;
@@ -109,29 +128,29 @@ a {
   width: 135px;
 }
 
+
 /* IMAGE SHAPE **/
+
 .img-thumbnail {
   background-color: #fff2cb;
 }
 
+
 /* BUTTONS **/
+
 .btn-dark {
-  background-image: linear-gradient(to right,
-    #070500,
-    #2e2300,
-    #070500) !important;
+  background-image: linear-gradient(to right, #070500, #2e2300, #070500) !important;
   color: #fff2cb;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(7, 5, 0, 0);
 }
 
 .btn-warning {
-  background-image: linear-gradient(to right,
-    #ffc107,
-    #fff2cb,
-    #ffc107) !important;
+  background-image: linear-gradient(to right, #ffc107, #fff2cb, #ffc107) !important;
 }
 
+
 /* FONTAWESOME ICONS **/
+
 .fa-play,
 .fa-utensils,
 .form-group,
@@ -150,7 +169,9 @@ a {
   color: #fff2cb;
 }
 
+
 /* CONTACT FORM **/
+
 .card-body {
   background-color: #2e2300;
   color: #fff2cb;
@@ -164,7 +185,9 @@ a {
   background-color: #fff2cb;
 }
 
+
 /* FLOAT BACK TO TOP ICON POSITIONING **/
+
 #scroll {
   position: fixed;
   right: 10px;
@@ -173,7 +196,9 @@ a {
   height: 50px;
 }
 
+
 /* FOOTER **/
+
 #main-footer {
   background-image: linear-gradient(to right, #070500, #2e2300, #070500);
   color: #fff2cb;
