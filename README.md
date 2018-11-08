@@ -88,10 +88,6 @@ All pictures within the website are sourced from [Pexels.com](https://www.w3.org
 
   - Used for open/close effect on the mobile navbar.
 
-- [Flex](https://getbootstrap.com/docs/4.1/utilities/flex/ "Flex/Bootstrap")
-
-  - used to manage the layout, alignment, and sizing of grid columns in particular sections.
-
 - [Bootstrap - v4.1.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/ "Bootstrap Official Site")
 
   - Utilised as the website core framework and consistent throughout
@@ -103,33 +99,6 @@ All pictures within the website are sourced from [Pexels.com](https://www.w3.org
 - [Font Awesome - v5.0.13](https://fontawesome.com/ "Fontawesome Official Site")
 
   - This was used for sourcing all utilised icons
-
-- [Chrome](https://developers.google.com/web/tools/chrome-devtools/ "Chrome DevTools") and [Firefox](https://developer.mozilla.org/en-US/docs/Tools "Firefox Dev Tools") Developer Tools
-
-  - Largely used within the production stage. This entailed but not limited to:
-    - Assist in developing a responsive grid system.
-    - CSS styling, colour scheme, prototyping code sequences before implementation.
-    - Alignment and positioning.
-    - Identifying and troubleshooting problems.
-
-- [Git/GitHub](https://github.com/ "GitHub")
-
-  - Used to records changes to file over time so that specific versions can be recalled later.
-
-- [AWS Cloud9](https://aws.amazon.com/cloud9/ "cloud-based integrated development environment") and [Visual Studio Code](https://code.visualstudio.com/ "Source Code Editor")
-  - The project was initiated on <i>AWS Cloud 9</i> but was later completed with <i>Visual Studio Code</i>.
-
-#### Plugins
-
-- https://code.jquery.com/jquery-3.3.1.min.js
-
-- https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
-
-- https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js
-
-- https://use.fontawesome.com/releases/v5.0.13/css/all.css
-
-- https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 
 #### Other Resources</h4>
 
