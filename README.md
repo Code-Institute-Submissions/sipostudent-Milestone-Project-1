@@ -118,7 +118,7 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - Audio players – which is an embedded HTML sound element containing an audio source and can be triggered by pressing the relevant button marked “Play to learn more.”
 
-- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the purpose for which I intended, that being cooking tutorials, are aligned with the honey theme which I have maintained throughout the website. YouTube footage (free for commercial use) has been utilised for displaying my competency in applying the correct code to generate functionality.
+- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the purpose for which I intended, that is cooking tutorials, are aligned with the honey theme which I have maintained throughout the website. YouTube footage (free for commercial use) has been utilised for displaying my competency in applying the correct code to generate functionality.
 
 - Images – all emphasise the chosen website theme (honey) to keep cohesion within content whilst generating and maintaining user engagement.
 
@@ -216,4 +216,4 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 #### Acknowledgements
 
-- I received inspiration for this project from visiting [awwwards.com](https://www.awwwards.com/30-single-page-websites.html "Awwwards Official Site"), but mostly from my interaction with other students on the Code Institute Full-Stack Developer Programme.
+- I received inspiration for this project from visiting [awwwards.com](https://www.awwwards.com/30-single-page-websites.html "Awwwards Official Site"), but mostly from my interaction with other students on Code Institute's Full Stack Software Development Programme.
