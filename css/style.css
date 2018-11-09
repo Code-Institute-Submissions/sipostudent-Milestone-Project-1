@@ -160,7 +160,11 @@ a {
 
 .fa-info-circle,
 .fa-map-marker-alt,
-.fa-table {
+.fa-table,
+.fa-medkit,
+.fa-leaf,
+.fa-meetup,
+.fa-list {
   color: #070500;
 }
 
