@@ -2,9 +2,7 @@
 
 Milestone Project One / User Centric Frontend Development / Code Institute
 
-This is a fictional based information product and events website for honey produce enthusiasts. The website focuses on recipes using honey, honey nutrition values, video instructions cooking preparation, and finally, time, date, location details for relevant events (optional, of course) for enthusiasts to attend.
-
-![honeygrub](https://user-images.githubusercontent.com/40184191/48219446-70a74a00-e384-11e8-8f30-3d12e03d1d58.gif)
+This is a fictional based information product and events website for honey produce enthusiasts. The website focuses on recipes using honey, honey nutrition values, video instructions cooking preparation, and finally, time, date, and location details for relevant events.
 
 ## UX
 
@@ -14,13 +12,13 @@ To provide a medium for users to navigate with ease, efficiently finding the inf
 
 #### Initiation
 
-- market research to understand what websites of similar scope were already providing which provided me with a list of do's and don'ts to acknowledge and consider pre-production.
+- Market research to understand what websites of similar scope were already providing which provided me with a list of do's and don'ts to acknowledge and consider pre-production.
 
 #### Layout
 
 - In my opinion, Single Page Applications (SPA) are better good for making responsive websites, supporting mobile devices, tablet & Desktop.
 
-- No extra queries are required to the server to download pages; thus, the website loads faster.
+- No extra queries are required to the server to download pages; which consequently makes the website load faster.
 - By opting for an SPA, better user-friendliness can be provided via a simple linear experience, with a clear beginning, middle, and end.
 
 - The amount of website content on offer is not vast; thus, in order to maintain user attention, opting to keep things dense as opposed to thinly dispersed or scattered across multiple separate pages seemed like a better choice.
@@ -62,7 +60,7 @@ Hover-CSS – to display pseudo-class matches when the user interacts with an el
 
 #### Navigation
 
-- Fixed navigation makes it easier for users to browse the website and increase retention: In some ways, it's a passive call to action; always visible, always available. As a frequent website user, I get tired of scrolling vertically and feel the need to change. People like things which save them complication and time. Thus, by consistently maintaining a browser bar or menu anchored while users are scrolling avoids them having to scroll up to get to the bar when they want to browse other environments, sections, content and so on.
+- Fixed navigation makes it easier for users to browse the website and increase retention: In some ways, it's a passive call to action; always visible, always available. As a frequent website user, I get tired of scrolling vertically and feel the need to change. People like things which save them complication and time. So, by consistently maintaining a browser bar or menu anchored while users are scrolling avoids them having to scroll up to get to the bar when they want to browse other environments, sections, content and so on.
 
 - Maintaining the logo visible increases the brand value: Today there are an enormous number of applications, many with identical or similar features, so I feel that it’s vital to make a good impact on users and retain their interest, which can be all linked to a good brand image supplied by a logo, the name and optional slogan line.
 
@@ -114,13 +112,13 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - Bootstrap navigation bar/header – with a ‘fixed-tip’ so that it remains at the top of the page and can extend or collapse, depending on the screen size. PLEASE NOTE, Some additional out of project scope requirement code which utilises technologies external to HTML & CSS has been added for ‘Smooth Scrolling’ for sliding down the web page smoothly and ‘Scroll Spy’ that tracks certain elements and which element the user's screen is currently centred on.
 
-- Contact forms – containing a set of questions to be filled out on the webpage by users that is automatically sent to the website owners’ email when it is filled out. PLEASE NOTE: All contact forms are invalidated as it was not a project requirement to have them fully functional.
+- Contact forms – containing a set of questions to be filled out on the webpage by users that is automatically sent to the website owners’ email when it is filled out.
 
 - HTML hyper Links – which refers to data that the user can directly follow either by clicking and which point to a whole document or to a specific element within a document. These can be found by clicking the specific text, such as that in the navigation bar, or clicking on specific icons (Fontawesome) like those in the events and home section of the website.
 
 - Audio players – which is an embedded HTML sound element containing an audio source and can be triggered by pressing the relevant button marked “Play to learn more.”
 
-- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the for which I intended i.e., the cooking tutorial is aligned with the honey theme which I have maintained throughout the website. YouTube footage (free for commercial use) has been utilised for displaying my competency in applying the correct code to generate functionality.
+- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the purpose for which I intended, that is cooking tutorials, are aligned with the honey theme which I have maintained throughout the website. YouTube footage (free for commercial use) has been utilised for displaying my competency in applying the correct code to generate functionality.
 
 - Images – all emphasise the chosen website theme (honey) to keep cohesion within content whilst generating and maintaining user engagement.
 
@@ -129,8 +127,6 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 - Float-to-top icon – that takes users back to the top of long pages. PLEASE NOTE, this addition is outside of the project scope requirement of HTML & CSS only as it utilises jQuery for functionality.
 
 ### Features Left to Implement
-
-- Form validation – could be used to occur at the server, after the client has entered in all the necessary data and then pressed the Submit button. However, in order to achieve this, out of project scope technology such as JavaScript would be required.
 
 - Image effects – to perhaps animate images and videos or have images enlarge to a larger size when selected by the user.
 
@@ -186,13 +182,13 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - External links to social media and venue location websites.
 - Internal links, which entailed those on the navbar to ensure anchors were referenced to the right sections.
-- Forms for signup of newsletter and contact (although, form validation was not a requirement of this project).
+- Forms for signup to newsletter and contact; however, it should be noted that form validation was not a requirement of this project.
 - Checked button sizes so they were responsive and large enough to be clicked.
 - Checked images to ensure they were responsive and displayed appropriately on multiple screen sizes.
-- Ensuring individual section headers resized and appeared well when viewed on various screens and added opacity to the navigation bar to allow for more visibility of section header area on smaller devices.
+- Ensuring individual section headers resized and appeared well when viewed on various device screens and added opacity to the navigation bar to allow for more visibility of section header area on smaller devices.
 - Spell checked all text content.
 - HTML and CSS validation via [w3.org](https://www.w3.org/ "W3C Official Site").
-- Checked margins and padding of the container (sections) to ensure the content within it didn't look disproportionate on various screen sizes, specifically smaller devices.
+- Checked margins and padding of the container (sections) to ensure the content within it did not look disproportionate on various screen sizes, specifically smaller devices.
 - Ensured the iframes were being responsive and displayed properly.
 
 ## Deployment
@@ -202,12 +198,11 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 #### Identified Issues
 
-- Once deployed, I realised that the images which I had used were uncompressed and quite large in size which took the total size of the website above 10mb which I considered too large for an SPA. So, I removed all images, compressed the file sizes, and then replaced into the website.
-- The font-family which I used appeared fine within testing, but when I tested the application on a real mobile device or on other desktops than my own, the font-family would change. This issue remains unsolved and is pending resolve, but I am leaning towards the idea that the font I used is one which requires a purchase before it can be used in product/s for mass distribution.
+- Once deployed, I realised that the images which I had used were uncompressed and quite large in size which took the total size of the website above 10mb which I considered too large for an SPA. So, I removed all images, compressed the file sizes, and then replaced into the website. This matter has now been resolved.
 
 #### Result
 
-- With the exception of the font-family issue, I would suffice this was a successful deployment, all project requirements were met, and the website, although based on a fictional premise, has indeed proven to be functional, user-friendly, and aesthetically pleasing.
+- I would suffice this was a successful deployment, all project requirements were met, and the website, although based on a fictional premise, has indeed proven to be functional, user-friendly, and aesthetically pleasing.
 
 ## CREDITS
 
@@ -217,8 +212,8 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 #### Media
 
-- The photos used on this website were obtained from [Pexels.com](https://www.pexels.com/ "Pexels Official Site") and the audio was sourced from [findsounds.com](http://findsounds.com/ "FindSounds Official Site"). All photos can be used for free, for commercial and non-commercial use, attribution is not required, and photos can be modified. All audio clips can be used for free, for commercial and non-commercial use, and attribution is not required. For further information, please refer to the relevant websites attached via hyperlink to the relevant media source title.
+- The photos used on this website were obtained from [Pexels.com](https://www.pexels.com/ "Pexels Official Site") and the audio was sourced from [findsounds.com](http://findsounds.com/ "FindSounds Official Site"). All photos can be used for free, for commercial and non-commercial use, attribution is not required, and photos can be modified. All audio clips can be used for free, for commercial and non-commercial use, and attribution is not required. For further information, please refer to the relevant websites attached via hyperlink to the corresponding media source title.
 
 #### Acknowledgements
 
-- I received inspiration for this project from visiting [awwwards.com](https://www.awwwards.com/30-single-page-websites.html "Awwwards Official Site"), but mostly from my interaction with other students on the Code Institute Full-Stack Developer Programme.
+- I received inspiration for this project from visiting [awwwards.com](https://www.awwwards.com/30-single-page-websites.html "Awwwards Official Site"), but mostly from my interaction with other students on Code Institute's Full Stack Software Development Programme.
