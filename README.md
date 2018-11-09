@@ -21,7 +21,7 @@ To provide a medium for users to navigate with ease, efficiently finding the inf
 - No extra queries are required to the server to download pages; which consequently makes the website load faster.
 - By opting for an SPA, better user-friendliness can be provided via a simple linear experience, with a clear beginning, middle, and end.
 
-- The amount of website content on offer is not vast; thus, in order to maintain user attention, opting to keep things dense as opposed to thinly dispersed or scattered across multiple separate pages seemed like a better choice.
+- The amount of website content on offer is not vast; so, in order to maintain user attention, opting to keep things dense as opposed to thinly dispersed or scattered across multiple separate pages seemed like a better choice.
 
 #### Colour Scheme
 
@@ -33,7 +33,7 @@ To provide a medium for users to navigate with ease, efficiently finding the inf
   - > #fff2cb color description: Very pale yellow.
   - > #ffc107 color description: Vivid yellow.
 
-  A colour encyclopaedia provided by ColorHexa was used to generate matching colour palettes.
+  A colour encyclopaedia provided by [ColorHexa](https://www.colorhexa.com/ "ColorHexa Official Site") was used to generate matching colour palettes.
 
 Opacity/Transparency – property to add transparency to the background of an element
 
@@ -68,7 +68,7 @@ Hover-CSS – to display pseudo-class matches when the user interacts with an el
 
 #### Audio & Video Content
 
-Being as this is a fictional company/group website, for the purpose of meeting academic requirements free for personal and commercial use media from [findsounds.com](http://findsounds.com/ "FindSounds Official Site") was included. PLEASE NOTE, this material does not necessarily have an informative purpose to users but rather demonstrates a capability of being able to utilise the correct code sequence/s in order to produce functional audio/video features on a website. Since controls on media players are an optional function, they have not been added; however sound can be initiated by pressing an included CSS styled button; thus, meeting the project requirement.
+Being as this is a fictional company/group website, for the purpose of meeting academic requirements free for personal and commercial use media from [soundeffectsplus.com](https://www.soundeffectsplus.com/product/comical-bong-whistle-crash-01/ "Sound Effects + Official Site") was included. PLEASE NOTE, this material does not necessarily have an informative purpose to users but rather demonstrates a capability of being able to utilise the correct code sequence/s in order to produce functional audio/video features on a website. Since controls on media players are an optional function, they have not been added; however sound can be initiated by pressing an included CSS styled button; thus, meeting the project requirement. All video footage was sourced from [YouTube](https://www.youtube.com/ "YouTube Official Site") (free for commercial use).
 
 #### Pictures
 
@@ -118,11 +118,11 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - Audio players – which is an embedded HTML sound element containing an audio source and can be triggered by pressing the relevant button marked “Play to learn more.”
 
-- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the purpose for which I intended, that is cooking tutorials, are aligned with the honey theme which I have maintained throughout the website. YouTube footage (free for commercial use) has been utilised for displaying my competency in applying the correct code to generate functionality.
+- HTML5 video – for the purpose of playing video media. The website includes two videos which although not directly related to the purpose for which I intended, that is cooking tutorials, are aligned with the honey theme which I have maintained throughout the website. As stated previously, [YouTube](https://www.youtube.com/ "YouTube Official Site") footage (free for commercial use) has been utilised for displaying competency in applying the correct code to generate functionality.
 
 - Images – all emphasise the chosen website theme (honey) to keep cohesion within content whilst generating and maintaining user engagement.
 
-- Social media icons – consist of Facebook, Twitter, YouTube, Pinterest, and Instagram. PLEASE NOTE, because this is a fictional website, no other media away from the website exists; however, the icons each contain a hyperlink which when clicked navigate to the corresponding official pages of each social media domain. A GitHub icon has also been included which navigates to the account of the website creator (myself).
+- Social media icons – consist of [Facebook](https://facebook.com "Facebook Official Site"), [Twitter](http://twitter.com "Twitter Official Site"), [YouTube](https://www.youtube.com/ "YouTube Official Site"), Pinterest, and Instagram. PLEASE NOTE, because this is a fictional website, no other media away from the website exists; however, the icons each contain a hyperlink which when clicked navigate to the corresponding official pages of each social media domain. A GitHub icon has also been included which navigates to the account of the website creator (myself).
 
 - Float-to-top icon – that takes users back to the top of long pages. PLEASE NOTE, this addition is outside of the project scope requirement of HTML & CSS only as it utilises jQuery for functionality.
 
@@ -212,7 +212,7 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 #### Media
 
-- The photos used on this website were obtained from [Pexels.com](https://www.pexels.com/ "Pexels Official Site") and the audio was sourced from [findsounds.com](http://findsounds.com/ "FindSounds Official Site"). All photos can be used for free, for commercial and non-commercial use, attribution is not required, and photos can be modified. All audio clips can be used for free, for commercial and non-commercial use, and attribution is not required. For further information, please refer to the relevant websites attached via hyperlink to the corresponding media source title.
+- The photos used on this website were obtained from [Pexels.com](https://www.pexels.com/ "Pexels Official Site") and the audio was sourced from [soundeffectsplus.com](https://www.soundeffectsplus.com/product/comical-bong-whistle-crash-01/ "Sound Effects + Official Site"). All photos can be used for free, for commercial and non-commercial use, attribution is not required, and photos can be modified. All audio clips can be used for free, for commercial and non-commercial use, and attribution is not required. For further information, please refer to the relevant websites attached via hyperlink to the corresponding media source title.
 
 #### Acknowledgements
 
