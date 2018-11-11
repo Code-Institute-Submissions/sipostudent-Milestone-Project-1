@@ -206,7 +206,7 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - I would suffice this was a successful deployment, all project requirements were met, and the website, although based on a fictional premise, has indeed proven to be functional, user-friendly, and aesthetically pleasing.
 
-## CREDITS
+## Credits
 
 #### Content
 
