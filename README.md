@@ -124,7 +124,7 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 - Images – all emphasise the chosen website theme (honey) to keep cohesion within content whilst generating and maintaining user engagement.
 
-- Social media icons – consist of [Facebook](https://facebook.com "Facebook Official Site"), [Twitter](http://twitter.com "Twitter Official Site"), [YouTube](https://www.youtube.com/ "YouTube Official Site"), Pinterest, and Instagram. PLEASE NOTE, because this is a fictional website, no other media away from the website exists; however, the icons each contain a hyperlink which when clicked navigate to the corresponding official pages of each social media domain. A GitHub icon has also been included which navigates to the account of the website creator (myself).
+- Social media icons – consist of [Facebook](https://facebook.com "Facebook Official Site"), [Twitter](http://twitter.com "Twitter Official Site"), [YouTube](https://www.youtube.com/ "YouTube Official Site"), Pinterest, and Instagram. PLEASE NOTE, because this is a fictional website, no other media away from the website exists; however, the icons each contain a hyperlink which when clicked navigate to the corresponding official pages of each social media domain. A GitHub icon has also been included which navigates to the account of the website creator (Sipo Charles).
 
 - Float-to-top icon – that takes users back to the top of long pages. PLEASE NOTE, this addition is outside of the project scope requirement of HTML & CSS only as it utilises jQuery for functionality.
 
@@ -210,7 +210,7 @@ Because the website utilises a ‘single-scrolling-page’ design, all code or c
 
 #### Content
 
-- All written content is bespoke and created by the code author (myself).
+- All written content is bespoke and created by the code author (Sipo Charles).
 
 #### Media
 
