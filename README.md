@@ -4,6 +4,8 @@ Milestone Project One / User Centric Frontend Development / Code Institute
 
 This is a fictional based information product and events website for honey produce enthusiasts. The website focuses on recipes using honey, honey nutrition values, video instructions cooking preparation, and finally, time, date, and location details for relevant events.
 
+<img src="img/HoneyGRUB.gif" width="300">
+
 ## UX
 
 #### Goal
